@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(244, 240, 240);
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100px;
+}
+
+/*헤더*/
+
+header {
+    height: 10%;
+    padding: 10px;
+    background-color: rgb(49, 157, 246);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: baseline;
+    margin-left: 20px;
+}
+
+.row .name {
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+.row a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.row nav a:hover{
+    color: gray;
+}
+
+.row .logout{
+    display: flex;
+}
+
+.login{
+    display: flex;
+}
+
+/*메인 학사일정*/
+
+.months{
+    display: flex;
+}
+
+.add{
+    margin-left: auto;
+}
+.month{
+    font-size: large;
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.schedule{
+    display: none;
+}
+
+.container {
+    display: flex; /* Flexbox 설정 */
+    padding: 10px;
+    height: 74.7%;
+  }
+  
+.section {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.section:first-child {
+    flex-basis: 45%;
+}
+
+section:last-child {
+    flex-basis: 55%;
+}
+
+footer {
+    background-color: rgb(193, 196, 198);
+    border-top: 1px solid black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 7%;
+}
+/* 메인 학사일정 표 설정 */
+.schedule {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.schedule td {
+    padding: 8px;
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.schedule table td:first-child {
+    width: 20%;
+}
+  
+.schedule table td:last-child {
+    width: 30%;
+}
+/*폼 스타일*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(244, 240, 240);
+    min-height: 72%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form button {
+    padding: 10px 20px;
+    max-width: 100px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.form button:hover {
+    background-color: #0069d9;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login-form input {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.join-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-form input {
+    max-width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.bday{
+    max-height: 10px;
+    overflow-y: auto;
+}
+
+/*수강신청*/
+.info-form table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.info-form th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.info-form th {
+    background-color: #f2f2f2;
+}
+
+.register table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.register th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.register th {
+    background-color: #f2f2f2;
+}
