@@ -297,7 +297,7 @@ session_start();
         </article>
     </body>
     <footer>
-        <p>산보대학교 | 김서이임 | 20220536</p>
+        <p>산보대학교 | 김서이 | 20220536</p>
     </footer>
 </body>
 
